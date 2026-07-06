@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+locale = 'en-gb'
+title = 'GPU Performance Portability Project'
+theme = 'chicago7'
+
+[menu]
+# [[menu.header]]
+# name = "About"
+# url = "about"
+# weight = 40
+
+[[menu.header]]
+name = "Workshop 1"
+url = "workshop1"
+weight = 30
+
+[[menu.header]]
+name = "Workshop 2"
+url = "workshop2"
+weight = 35
+
+[[menu.header]]
+name = "Deep Dives"
+url = "deep_dives"
+weight = 20
+
+[[menu.header]]
+name = "Home"
+url = "/"
+weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[params]
+  math = true
