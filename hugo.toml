@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 locale = 'en-gb'
-title = 'GPU Performance Portability Project'
+title = 'GPU Performance Portability Training'
 theme = 'chicago7'
 
 [menu]
