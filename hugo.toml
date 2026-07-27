@@ -1,5 +1,5 @@
-
-baseURL = '/gppt_website_test/'
+# baseURL = '/gppt_website_test/'
+baseURL = '/'
 locale = 'en-gb'
 title = 'GPU Performance Portability Training'
 theme = 'chicago7'
@@ -10,24 +10,34 @@ theme = 'chicago7'
 # url = "about"
 # weight = 40
 
-[[menu.header]]
-name = "Workshop 1"
-url = "workshop1"
-weight = 30
-
-[[menu.header]]
-name = "Workshop 2"
-url = "workshop2"
-weight = 35
+# [[menu.header]]
+# name = "Workshop 1"
+# url = "workshop1"
+# weight = 30
+#
+# [[menu.header]]
+# name = "Workshop 2"
+# url = "workshop2"
+# weight = 35
 
 [[menu.header]]
 name = "Deep Dives"
 url = "deep_dives"
-weight = 20
+weight = 7
 
 [[menu.header]]
 name = "Home"
 url = "/"
+weight = 5
+
+[[menu.header]]
+name = "DiRAC Training Academy"
+url = "https://training-academy.dirac.ac.uk/"
+weight = 20
+
+[[menu.header]]
+name = "DiRAC"
+url = "https://dirac.ac.uk/"
 weight = 10
 
 [markup]
@@ -43,3 +53,4 @@ weight = 10
 
 [params]
   math = true
+  author = "DiRAC"
