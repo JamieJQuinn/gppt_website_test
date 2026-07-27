@@ -1,5 +1,5 @@
-# baseURL = '/gppt_website_test/'
-baseURL = '/'
+baseURL = '/gppt_website_test/'
+# baseURL = '/'
 locale = 'en-gb'
 title = 'GPU Performance Portability Training'
 theme = 'chicago7'
