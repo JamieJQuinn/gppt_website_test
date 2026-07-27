@@ -1,4 +1,4 @@
-baseURL = 'https://https://jamiejquinn.github.io/gppt_website_test/
+baseURL = 'https://https://jamiejquinn.github.io/gppt_website_test/'
 locale = 'en-gb'
 title = 'GPU Performance Portability Training'
 theme = 'chicago7'
